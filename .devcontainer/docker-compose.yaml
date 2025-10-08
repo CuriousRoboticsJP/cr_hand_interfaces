@@ -1,0 +1,17 @@
+services:
+  ros2_humble:
+    build:
+      context: .
+      dockerfile: DockerFile
+    privileged: true
+    ipc: host
+    pid: host
+    network_mode: host
+    stdin_open: true
+    tty: true
+    working_dir: /root/ros_ws/src/CR-Hand_Interfaces
+    volumes:
+      - ..:/root/ros_ws/src/CR-Hand_Interfaces
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=host.docker.internal:0.0

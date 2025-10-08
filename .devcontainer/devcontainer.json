@@ -1,0 +1,24 @@
+{
+    "name": "cr_pololu_ros",
+    "dockerComposeFile": "./docker-compose.yaml",
+    "service": "ros2_humble",
+    "workspaceFolder": "/root/ros_ws/src",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "yzhang.markdown-all-in-one",
+                "redhat.vscode-xml",
+                "redhat.vscode-yaml",
+                "mhutchie.git-graph",
+                "DotJoshJohnson.xml",
+                "Ranch-Hand-Robotics.rde-pack",
+                "ms-vscode.cmake-tools",
+                "ms-vscode.cpptools-extension-pack",
+                "ajshort.msg",
+                "Ranch-Hand-Robotics.rde-ros-2"
+            ]
+        }
+    }
+  }
