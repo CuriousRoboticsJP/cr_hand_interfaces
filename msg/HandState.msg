@@ -1,0 +1,5 @@
+sensor_msgs/JointState thumb_pos
+sensor_msgs/JointState index_pos
+sensor_msgs/JointState middle_pos
+sensor_msgs/JointState ring_pos
+sensor_msgs/JointState little_pos
