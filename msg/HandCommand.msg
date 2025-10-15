@@ -1,3 +1,4 @@
+float64 palm_pos_cmd
 float64 thumb_pos_cmd
 float64 index_pos_cmd
 float64 middle_pos_cmd

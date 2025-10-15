@@ -1,5 +1,6 @@
-sensor_msgs/JointState thumb_pos
-sensor_msgs/JointState index_pos
-sensor_msgs/JointState middle_pos
-sensor_msgs/JointState ring_pos
-sensor_msgs/JointState little_pos
+sensor_msgs/JointState palm
+sensor_msgs/JointState thumb
+sensor_msgs/JointState index
+sensor_msgs/JointState middle
+sensor_msgs/JointState ring
+sensor_msgs/JointState little
