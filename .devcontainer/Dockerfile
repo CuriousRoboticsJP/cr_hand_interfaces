@@ -27,3 +27,6 @@ RUN vcs import < packages.repos; \
 # Add sourcing ROS setup.bash to .bashrc
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 RUN echo "source ~/.bashrc"
+
+# set workdir to workspace
+WORKDIR /root/ros_ws/

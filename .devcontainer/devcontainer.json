@@ -2,7 +2,7 @@
     "name": "cr_pololu_ros",
     "dockerComposeFile": "./docker-compose.yaml",
     "service": "ros2_humble",
-    "workspaceFolder": "/root/ros_ws/src",
+    "workspaceFolder": "/root/ros_ws/",
     "customizations": {
         "vscode": {
             "settings": {},

@@ -9,9 +9,9 @@ services:
     network_mode: host
     stdin_open: true
     tty: true
-    working_dir: /root/ros_ws/src/CR-Hand_Interfaces
+    working_dir: /root/ros_ws/
     volumes:
-      - ..:/root/ros_ws/src/CR-Hand_Interfaces
+      - ..:/root/ros_ws/src/cr_hand_interfaces
       - /tmp/.X11-unix:/tmp/.X11-unix
     environment:
       - DISPLAY=host.docker.internal:0.0
